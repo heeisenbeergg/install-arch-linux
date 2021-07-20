@@ -1,7 +1,7 @@
 # install-manjaro
 Packages to build environment development in Linux Manjaro
 
-# update
+## update
 `sudo pacman -Syu`
 
 # install base-devel
