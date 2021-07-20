@@ -42,19 +42,12 @@ Packages to build environment development in Linux Manjaro
 ## compile and install package-query
 `makepkg -si`
 
-## return folder
-`cd ..`
-
 ## clone and install yaourt
 `git clone https://aur.archlinux.org/yaourt.git && cd yaourt/`
 
 ## compile and install yaourt
 `makepkg -si`
 
-## return folder
-`cd ..`
-
-## remove folders
 `sudo rm -dR yaourt/ package-query/`
 
 ## install open java 11
@@ -65,6 +58,12 @@ Packages to build environment development in Linux Manjaro
 
 ## install vscode
 `yaourt visual-studio-code-bin`
+
+## install intellij
+`sudo pacman -S intellij-idea-community-edition`
+
+## install htop
+`sudo pacman -S htop`
 
 ## install google chrome
 `yaourt -S google-chrome`
