@@ -33,31 +33,17 @@ Packages to build environment development in Linux Manjaro
 ## install zinit
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"`
 
-## add yaourt
-`sudo pacman -S --needed base-devel git wget yajl`
-
-## clone and install package-query that allows to build and run yaourt
-`git clone https://aur.archlinux.org/package-query.git && cd package-query/`
-
-## compile and install package-query
-`makepkg -si`
-
-## clone and install yaourt
-`git clone https://aur.archlinux.org/yaourt.git && cd yaourt/`
-
-## compile and install yaourt
-`makepkg -si`
-
-`sudo rm -dR yaourt/ package-query/`
-
 ## install open java 11
 `sudo pacman -S jdk11-openjdk`
 
 ## install maven
 `sudo pacman -S maven`
 
+## install yay
+`sudo pacman -S yay`
+
 ## install vscode
-`yaourt visual-studio-code-bin`
+`yay -S visual-studio-code-bin`
 
 ## install intellij
 `sudo pacman -S intellij-idea-community-edition`
@@ -66,7 +52,7 @@ Packages to build environment development in Linux Manjaro
 `sudo pacman -S htop`
 
 ## install google chrome
-`yaourt -S google-chrome`
+`yay -S google-chrome`
 
 ## install aws sdk
 `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
