@@ -51,7 +51,7 @@ Packages to build environment development in Linux Manjaro
 `sudo rm -dR yaourt/ package-query/`
 
 ## install open java 11
-`sudo pacman -S jre11-openjdk-headless jre11-openjdk jdk11-openjdk openjdk11-doc openjdk11-src`
+`sudo pacman -S jdk11-openjdk`
 
 ## install maven
 `sudo pacman -S maven`
@@ -78,7 +78,7 @@ Packages to build environment development in Linux Manjaro
 `rm -rf awscliv2.zip && rm -rf aws`
 
 ## install dbeaver
-`pamac install dbeaver && sudo pacman -S dbeaver`
+`sudo pacman -S dbeaver`
 
 ## install docker
 `sudo pacman -S docker`
@@ -88,3 +88,18 @@ Packages to build environment development in Linux Manjaro
 
 ## run image docker to mysql 5.6
 `docker run --name mysql_5.6 -e MYSQL_DATABASE=mysql_5.6 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.6`
+
+## install npm
+`sudo pacman -S npm`
+
+## install nodejs
+`sudo pacman -S nodejs-lts-fermium`
+
+## install yarn
+`sudo npm install --global yarn`  
+
+## install npx
+`npm i npx`
+
+## install discord
+`sudo pacman -S discord`
