@@ -89,3 +89,8 @@ Packages to build environment development in Linux Manjaro
 
 ## install discord
 `sudo pacman -S discord`
+
+## install insomnia
+`yay -S insomnia`
+
+`sudo ln -s /opt/insomnia/insomnia /usr/bin/insomnia`
