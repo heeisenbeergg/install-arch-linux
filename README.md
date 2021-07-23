@@ -78,6 +78,9 @@ Packages to build environment development in Linux Manjaro
 ## run image docker to mysql 5.6
 `docker run --name mysql_5.6 -e MYSQL_DATABASE=mysql_5.6 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.6`
 
+## run image redis
+`docker run --name redis_local -p 6379:6379 -d redis`
+
 ## install npm
 `sudo pacman -S npm`
 
