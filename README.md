@@ -36,6 +36,9 @@ Packages to build environment development in Linux Manjaro
 ## install open java 11
 `sudo pacman -S jdk11-openjdk`
 
+## install open java 8
+`sudo pacman -S jdk8-openjdk`
+
 ## install maven
 `sudo pacman -S maven`
 
