@@ -94,3 +94,6 @@ Packages to build environment development in Linux Manjaro
 `yay -S insomnia`
 
 `sudo ln -s /opt/insomnia/insomnia /usr/bin/insomnia`
+
+## install tig
+`yay -S tig`
