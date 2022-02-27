@@ -103,3 +103,6 @@ Packages to build environment development in Linux Manjaro
 
 ## install tig
 `yay -S tig`
+
+## install fire code
+`sudo pacman -S ttf-fira-code`
