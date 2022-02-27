@@ -31,7 +31,7 @@ Packages to build environment development in Linux Manjaro
 `ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"`
 
 ## install zinit
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"`
+`sh -c "$(curl -fsSL https://git.io/zinit-install)"`
 
 ## install open java 11
 `sudo pacman -S jdk11-openjdk`
