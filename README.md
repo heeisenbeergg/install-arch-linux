@@ -1,11 +1,8 @@
-# install-manjaro
-Packages to build environment development in Linux Manjaro
+# install-arch-linux
+Packages to build environment development in Arch Linux
 
-## update Manjaro
+## update
 `sudo pacman -Syu`
-
-## install base-devel
-`sudo pacman -S base-devel`
 
 ## install git
 `sudo pacman -S git`
