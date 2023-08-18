@@ -103,3 +103,6 @@ Packages to build environment development in Arch Linux
 
 ## install fire code
 `sudo pacman -S ttf-fira-code`
+
+## install icon theme
+yay -S papirus-icon-theme
